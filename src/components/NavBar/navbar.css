@@ -1,7 +1,7 @@
 .navbar{
   height: 5rem;
   width: 100vw;
-  max-width: 85rem;
+  max-width: 80rem;
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;
@@ -13,8 +13,8 @@
 }
 
 .logo{
-  width: 6rem;
-  height: 4rem;
+  width: 4rem;
+  height: 3rem;
   object-fit: contain;
 }
 .desktopMenuListItem{
@@ -22,9 +22,9 @@
   cursor: pointer;
 }
 .desktopMenuListItem:hover{
-  color: yellow;
+  color: rgb(205, 205, 66);
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid rgb(205, 205, 66);
 }
 .desktopMenuImg{
   object-fit: cover;

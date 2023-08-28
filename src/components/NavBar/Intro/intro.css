@@ -1,0 +1,47 @@
+#intro {
+  height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 80rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 100vh;
+}
+
+.introContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 6rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introName {
+  color: rgb(205, 205, 66);
+}
+
+
+@media screen and (max-width:840px) {
+  .background {
+    right: -10vw;
+  }
+  .introContent {
+    font-size: 12vw;
+  }
+}
+@media screen and (max-width:480px) {
+  .background {
+    right: -20vw;
+  }
+}
