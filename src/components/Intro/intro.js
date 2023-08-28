@@ -1,6 +1,6 @@
 import React from "react";
 import './intro.css';
-import background from '../../../assets/q-intro.png'
+import background from '../../assets/q-intro.png'
 
 const Intro = () => {
   return (
