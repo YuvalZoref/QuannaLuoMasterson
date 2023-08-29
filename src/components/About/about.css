@@ -22,13 +22,12 @@
   font-size: 1.5rem;
   max-width: 60rem;
   padding: 0 2rem;
-  font-weight: 400;
 }
 
 .aboutBars {
   margin: 1.5rem;
   width: 100vw;
-  max-width: 80%;
+  max-width: 90%;
   text-align: left;
 }
 

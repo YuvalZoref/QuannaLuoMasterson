@@ -18,7 +18,7 @@ const About = () => {
         <div className="aboutBar">
           <img src={image} alt="LogoChange" className="aboutBarImg" />
           <div className="aboutBarText">
-            <h2>Something here</h2>
+            <h2>TV & film</h2>
             <p>write my own text section here, whatever it may be!
             write my own text section here, whatever it may be!</p>
           </div>
@@ -26,7 +26,7 @@ const About = () => {
         <div className="aboutBar">
           <img src={image} alt="LogoChange" className="aboutBarImg" />
           <div className="aboutBarText">
-            <h2>Something here</h2>
+            <h2>Stage</h2>
             <p>write my own text section here, whatever it may be!
             write my own text section here, whatever it may be!</p>
           </div>
@@ -34,7 +34,7 @@ const About = () => {
         <div className="aboutBar">
           <img src={image} alt="LogoChange" className="aboutBarImg" />
           <div className="aboutBarText">
-            <h2>Something here</h2>
+            <h2>Voice over</h2>
             <p>write my own text section here, whatever it may be!
             write my own text section here, whatever it may be!</p>
           </div>
