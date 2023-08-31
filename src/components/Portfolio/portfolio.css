@@ -1,8 +1,8 @@
 #portfolio {
   margin: 0 auto;
-  min-height: calc(100vh - 4rem);
-  width: 100vh;
-  max-width: 80rem;
+  min-height: calc(100vh - 5rem);
+  /* width: 100vh; */
+  max-width: 60rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,6 +19,7 @@
 .portfolioDescription {
   font-weight: 300;
   font-size: 1.5rem;
+  max-width: 60rem;
 }
 
 .portfolioImages {
@@ -34,7 +35,21 @@
 .portfolioImg {
   object-fit: cover;
   height: 22rem;
-  /* width: 16rem; */
   margin: 0.5rem;
   border-radius: 0.5rem;
+}
+.portfolioBtn {
+  padding: 0.5rem 2.5rem;
+  border: none;
+  background: #fff;
+  border-radius: 2rem;
+  margin: 3rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width:585px) {
+  .portfolioImg {
+    height: 46vw;
+  }
 }
