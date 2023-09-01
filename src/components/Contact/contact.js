@@ -1,10 +1,10 @@
 import React from "react";
 import './contact.css';
 import Logo from '../../assets/logo-q.png';
-import imdbIcon from '../../assets/logo-q.png';
-import agentIcon from '../../assets/logo-q.png';
-import facebookIcon from '../../assets/logo-q.png';
-import instagramIcon from '../../assets/logo-q.png';
+import imdbIcon from '../../assets/imdb.png';
+import agentIcon from '../../assets/wechat.png';
+import facebookIcon from '../../assets/facebook.png';
+import instagramIcon from '../../assets/instagram.png';
 
 const Contact = () => {
   return (
