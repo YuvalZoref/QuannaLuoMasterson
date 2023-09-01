@@ -2,13 +2,13 @@
   margin: 0 auto;
   min-height: calc(100vh - 5rem);
   /* width: 100vh; */
-  max-width: 60rem;
+  max-width: 70rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 
 .portfolioTitle {
@@ -20,6 +20,7 @@
   font-weight: 300;
   font-size: 1.5rem;
   max-width: 60rem;
+  padding: 0 2rem;
 }
 
 .portfolioImages {

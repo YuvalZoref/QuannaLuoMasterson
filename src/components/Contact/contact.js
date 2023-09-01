@@ -1,10 +1,14 @@
 import React from "react";
 import './contact.css';
 import Logo from '../../assets/logo-q.png';
+import imdbIcon from '../../assets/logo-q.png';
+import agentIcon from '../../assets/logo-q.png';
+import facebookIcon from '../../assets/logo-q.png';
+import instagramIcon from '../../assets/logo-q.png';
 
 const Contact = () => {
   return (
-    <section className="contactPage">
+    <section id="contactPage">
     <div id="work">
       <h1 className="contactPageTitle">My Work</h1>
       <p className="workDescription">
@@ -24,6 +28,20 @@ const Contact = () => {
       </div>
     </div>
     <div id="contact">
+      <h1 className="contactPageTitle">Contact</h1>
+      <span className="contactDescription"> Please feel free to fill out the below form to reach out to me!</span>
+      <form className="contactForm">
+        <input type="text" className="name" placeholder="Name" />
+        <input type="email" className="email" placeholder="Email" />
+        <textarea className="message" name="message" rows="5" placeholder="Your Message"></textarea>
+        <button type="submit" value='send' className="submitBtn">Submit</button>
+        <div className="links">
+          <img src={imdbIcon} alt="imdb" className="link" />
+          <img src={agentIcon} alt="agent" className="link" />
+          <img src={facebookIcon} alt="facebook" className="link" />
+          <img src={instagramIcon} alt="instagram" className="link" />
+        </div>
+      </form>
 
     </div>
     </section>

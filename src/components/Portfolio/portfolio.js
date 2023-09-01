@@ -10,7 +10,7 @@ import Portfolio6 from '../../assets/q9.jpg';
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h2 className='portfolioTitle'>My Work</h2>
+      <h2 className='portfolioTitle'>My Portfolio</h2>
       <span className='portfolioDescription'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Maxime velit ipsam, doloribus,
