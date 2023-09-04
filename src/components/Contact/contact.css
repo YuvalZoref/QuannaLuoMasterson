@@ -90,8 +90,8 @@
   object-fit: cover;
   height: 3rem;
   width: 3rem;
-  margin: 0 0.75rem;
-  border-radius: 4px;
+  margin: 0 1rem;
+  /* border-radius: 4px; */
 }
 .link:hover {
   cursor: pointer;

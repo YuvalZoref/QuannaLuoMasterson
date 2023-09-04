@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 import './contact.css';
 import Logo from '../../assets/logo-q.png';
 import imdbIcon from '../../assets/imdb.png';
-import agentIcon from '../../assets/wechat.png';
+import spotlighIcon from '../../assets/spotlight-logo.png';
 import facebookIcon from '../../assets/facebook.png';
 import instagramIcon from '../../assets/instagram.png';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <section id="contactPage">
     <div id="work">
@@ -30,16 +42,16 @@ const Contact = () => {
     <div id="contact">
       <h1 className="contactPageTitle">Contact</h1>
       <span className="contactDescription"> Please feel free to fill out the below form to reach out to me!</span>
-      <form className="contactForm">
+      <form className="contactForm" ref={form} onSubmit={sendEmail}>
         <input type="text" className="name" placeholder="Name" />
         <input type="email" className="email" placeholder="Email" />
         <textarea className="message" name="message" rows="5" placeholder="Your Message"></textarea>
         <button type="submit" value='send' className="submitBtn">Submit</button>
         <div className="links">
-          <img src={imdbIcon} alt="imdb" className="link" />
-          <img src={agentIcon} alt="agent" className="link" />
-          <img src={facebookIcon} alt="facebook" className="link" />
-          <img src={instagramIcon} alt="instagram" className="link" />
+          <a href="https://www.imdb.com/name/nm9973363/?ref_=ext_shr_lnk" rel="noreferrer" target="blank"><img src={imdbIcon} alt="imdb" className="link" /></a>
+          <a href="https://www.spotlight.com/6694-9082-1101" rel="noreferrer" target="blank"><img src={spotlighIcon} alt="agent" className="link" /></a>
+          <a href="https://www.imdb.com/name/nm9973363/?ref_=ext_shr_lnk" rel="noreferrer" target="blank"><img src={facebookIcon} alt="facebook" className="link" /></a>
+          <a href="https://www.instagram.com/quanna_l/" rel="noreferrer" target="blank"><img src={instagramIcon} alt="instagram" className="link" /></a>
         </div>
       </form>
 
