@@ -5,7 +5,7 @@ import Portfolio2 from '../../assets/q3.jpg';
 import Portfolio3 from '../../assets/q4.jpg';
 import Portfolio4 from '../../assets/q5.jpg';
 import Portfolio5 from '../../assets/q6.jpg';
-import Portfolio6 from '../../assets/q9.jpg';
+import Portfolio6 from '../../assets/Hennessy1resize.jpg';
 
 const Portfolio = () => {
   return (
