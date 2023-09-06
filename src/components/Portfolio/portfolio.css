@@ -36,6 +36,7 @@
 .portfolioImg {
   object-fit: cover;
   height: 22rem;
+  width: 20rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
 }
@@ -48,9 +49,13 @@
   font-size: 1rem;
   font-weight: 600;
 }
+.portfolioBtn:hover {
+  cursor: pointer;
+}
 
 @media screen and (max-width:585px) {
   .portfolioImg {
     height: 46vw;
+    width: auto;
   }
 }

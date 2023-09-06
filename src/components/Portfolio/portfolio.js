@@ -28,7 +28,9 @@ const Portfolio = () => {
         <img src={Portfolio5} alt="" className="portfolioImg" />
         <img src={Portfolio6} alt="" className="portfolioImg" />
       </div>
-      <button className="portfolioBtn">See More</button>
+      <a href='https://www.michelleblairmanagement.co.uk/quanna-luo-masterson'rel="noreferrer" target="blank">
+        <button className="portfolioBtn">See more</button>
+      </a>
     </section>
   )
 }
