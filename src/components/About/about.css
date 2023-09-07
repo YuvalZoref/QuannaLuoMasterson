@@ -41,9 +41,9 @@
 }
 
 .aboutBarImg {
-  object-fit: cover;
-  height: 3rem;
-  width: 3rem;
+  object-fit: contain;
+  height: 3.5rem;
+  width: 3.5rem;
   margin-right: 2rem;
 }
 

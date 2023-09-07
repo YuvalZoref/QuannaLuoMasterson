@@ -4,7 +4,7 @@ import Logo from '../../assets/logo-q.png';
 import imdbIcon from '../../assets/imdb.png';
 import spotlighIcon from '../../assets/spotlight-logo.png';
 import facebookIcon from '../../assets/facebook.png';
-import instagramIcon from '../../assets/instagram.png';
+import instagramIcon from '../../assets/insta.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {

@@ -1,6 +1,8 @@
 import React from "react";
 import './about.css';
-import image from '../../assets/logo-q.png';
+import film from '../../assets/film.png';
+import theatre from '../../assets/theatre.png';
+import voice from '../../assets/voice.png';
 
 const About = () => {
   return (
@@ -16,7 +18,7 @@ const About = () => {
         labore nam harum quo rerum eum. Quibusdam.</span>
       <div className="aboutBars">
         <div className="aboutBar">
-          <img src={image} alt="LogoChange" className="aboutBarImg" />
+          <img src={film} alt="LogoChange" className="aboutBarImg" />
           <div className="aboutBarText">
             <h2>TV & film</h2>
             <p>write my own text section here, whatever it may be!
@@ -24,7 +26,7 @@ const About = () => {
           </div>
         </div>
         <div className="aboutBar">
-          <img src={image} alt="LogoChange" className="aboutBarImg" />
+          <img src={theatre} alt="LogoChange" className="aboutBarImg" />
           <div className="aboutBarText">
             <h2>Stage</h2>
             <p>write my own text section here, whatever it may be!
@@ -32,7 +34,7 @@ const About = () => {
           </div>
         </div>
         <div className="aboutBar">
-          <img src={image} alt="LogoChange" className="aboutBarImg" />
+          <img src={voice} alt="LogoChange" className="aboutBarImg" />
           <div className="aboutBarText">
             <h2>Voice over</h2>
             <p>write my own text section here, whatever it may be!
