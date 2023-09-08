@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import './contact.css';
 import dumping from '../../assets/work/dumping.jpg';
 import police from '../../assets/work/police.PNG'
+import mercedes from '../../assets/work/mercedes.png'
 import Hennessy2 from '../../assets/work/Hennessy2.jpg';
 import Hennessy3 from '../../assets/work/Hennessy3.JPG';
 import Hennessy4 from '../../assets/work/Hennessy4.JPEG';
@@ -41,15 +42,18 @@ const Contact = () => {
         labore nam harum quo rerum eum. Quibusdam.
       </p>
       <div className="workImages">
+        <img src={mercedes} alt="" className="workImg" />
+        <img src={Hennessy2} alt="" className="workImg" />
         <img src={dumping} alt="" className="workImg" />
+        <img src={Hennessy3} alt="" className="workImg" />
         <img src={Hennessy1} alt="" className="workImg" />
         <img src={police} alt="" className="workImg" />
         <img src={salome} alt="" className="workImg" />
-        <img src={salome} alt="" className="workImg" />
-        <img src={Hennessy2} alt="" className="workImg" />
-        <img src={Hennessy3} alt="" className="workImg" />
         <img src={Hennessy4} alt="" className="workImg" />
       </div>
+      <a href='https://www.michelleblairmanagement.co.uk/quanna-luo-masterson'rel="noreferrer" target="blank">
+        <button className="workBtn">See more</button>
+      </a>
     </div>
     <div id="contact">
       <h1 className="contactPageTitle">Contact</h1>

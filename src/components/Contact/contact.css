@@ -97,6 +97,18 @@
 .link:hover {
   cursor: pointer;
 }
+.workBtn {
+  padding: 0.5rem 2.5rem;
+  border: none;
+  background: #fff;
+  border-radius: 2rem;
+  margin: 3rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.workBtn:hover {
+  cursor: pointer;
+}
 
 @media screen and (max-width:720px) {
   .workImages {
@@ -107,14 +119,10 @@
     padding: 0.3rem;
   }
   .contactDescription {
-    font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .workDescription {
     font-weight: 300;
     font-size: 1.25rem;
-  }
-  .contactForm {
-    padding-left: 1.5rem;
   }
 }

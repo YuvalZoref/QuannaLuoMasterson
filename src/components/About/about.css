@@ -37,7 +37,8 @@
   margin: 1rem;
   padding: 1.5rem 2rem;
   border-radius: 0.5rem;
-  background-color: rgb(50, 50, 50);
+  background-color: #d5c0c5;
+  color: black;
 }
 
 .aboutBarImg {

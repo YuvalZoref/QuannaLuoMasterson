@@ -10,7 +10,7 @@ import Portfolio6 from '../../assets/q9.jpg';
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h2 className='portfolioTitle'>My Portfolio</h2>
+      <h2 className='portfolioTitle'>Portfolio</h2>
       <span className='portfolioDescription'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Maxime velit ipsam, doloribus,
@@ -28,9 +28,6 @@ const Portfolio = () => {
         <img src={Portfolio5} alt="" className="portfolioImg" />
         <img src={Portfolio6} alt="" className="portfolioImg" />
       </div>
-      <a href='https://www.michelleblairmanagement.co.uk/quanna-luo-masterson'rel="noreferrer" target="blank">
-        <button className="portfolioBtn">See more</button>
-      </a>
     </section>
   )
 }
