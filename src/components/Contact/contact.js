@@ -51,9 +51,6 @@ const Contact = () => {
         <img src={salome} alt="" className="workImg" />
         <img src={Hennessy4} alt="" className="workImg" />
       </div>
-      <a href='https://www.michelleblairmanagement.co.uk/quanna-luo-masterson'rel="noreferrer" target="blank">
-        <button className="workBtn">See more</button>
-      </a>
     </div>
     <div id="contact">
       <h1 className="contactPageTitle">Contact</h1>

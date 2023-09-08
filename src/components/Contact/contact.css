@@ -12,7 +12,7 @@
 
 .contactPageTitle {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .workDescription {
@@ -97,7 +97,7 @@
 .link:hover {
   cursor: pointer;
 }
-.workBtn {
+/* .workBtn {
   padding: 0.5rem 2.5rem;
   border: none;
   background: #fff;
@@ -108,7 +108,7 @@
 }
 .workBtn:hover {
   cursor: pointer;
-}
+} */
 
 @media screen and (max-width:720px) {
   .workImages {

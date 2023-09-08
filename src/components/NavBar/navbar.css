@@ -23,9 +23,9 @@
   cursor: pointer;
 }
 .desktopMenuListItem:hover{
-  color: rgb(205, 205, 66);
+  color: #d5c0c5;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid rgb(205, 205, 66);
+  border-bottom: 3px solid #d5c0c5;
 }
 .desktopMenuImg{
   object-fit: cover;
@@ -51,8 +51,8 @@
 }
 
 .active {
-  color: yellow;
-  border-bottom: 3px solid yellow;
+  color: #d5c0c5;
+  border-bottom: 3px solid #d5c0c5;
   padding-bottom: 0.5rem;
 }
 
@@ -86,8 +86,8 @@
   background: rgb(30, 30, 30);
 }
 .listItem:hover {
-  color: rgb(205, 205, 66);
-  border-bottom: 3px solid rgb(205, 205, 66);
+  color: #d5c0c5;
+  border-bottom: 3px solid #d5c0c5;
   cursor: pointer;
 }
 

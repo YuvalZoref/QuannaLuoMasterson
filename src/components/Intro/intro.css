@@ -17,6 +17,8 @@
 }
 
 .introContent {
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
   height: 100vh;
   width: 100vw;
   padding: 2rem;
@@ -24,11 +26,12 @@
   font-weight: 700;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .introName {
-  color: rgb(205, 205, 66);
+  text-orientation: upright;
+  color: #d5c0c5;
 }
 
 
@@ -37,7 +40,7 @@
     right: -10vw;
   }
   .introContent {
-    font-size: 12vw;
+    font-size: 18vw;
   }
 }
 @media screen and (max-width:480px) {
