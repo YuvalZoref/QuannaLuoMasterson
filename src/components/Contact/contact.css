@@ -31,7 +31,7 @@
 .workImg {
   object-fit: contain;
   width: 23%;
-  min-width: 12rem;
+  min-width: 27rem;
   margin: auto;
   padding: 0.25rem;
   border-radius: 10px;
@@ -115,8 +115,8 @@
     margin: 1rem 1.5rem;
   }
   .workImg {
-    min-width: 10rem;
-    padding: 0.3rem;
+    min-width: 11rem;
+    padding: 0.2rem;
   }
   .contactDescription {
     font-size: 1rem;

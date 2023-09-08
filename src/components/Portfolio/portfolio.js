@@ -22,11 +22,11 @@ const Portfolio = () => {
       </span>
       <div className="portfolioImages">
         <img src={Portfolio1} alt="" className="portfolioImg" />
+        <img src={Portfolio6} alt="" className="portfolioImg" />
         <img src={Portfolio2} alt="" className="portfolioImg" />
+        <img src={Portfolio5} alt="" className="portfolioImg" />
         <img src={Portfolio3} alt="" className="portfolioImg" />
         <img src={Portfolio4} alt="" className="portfolioImg" />
-        <img src={Portfolio5} alt="" className="portfolioImg" />
-        <img src={Portfolio6} alt="" className="portfolioImg" />
       </div>
     </section>
   )

@@ -27,6 +27,7 @@
 
 .aboutBars {
   margin: 1.5rem;
+  margin-bottom: 0;
   width: 100vw;
   max-width: 90%;
   text-align: left;
