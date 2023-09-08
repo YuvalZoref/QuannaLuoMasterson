@@ -1,6 +1,12 @@
 import React, { useRef } from "react";
 import './contact.css';
-import Logo from '../../assets/logo-q.png';
+import dumping from '../../assets/work/dumping.jpg';
+import police from '../../assets/work/police.PNG'
+import Hennessy2 from '../../assets/work/Hennessy2.jpg';
+import Hennessy3 from '../../assets/work/Hennessy3.JPG';
+import Hennessy4 from '../../assets/work/Hennessy4.JPEG';
+import Hennessy1 from '../../assets/work/Hennessy1.jpg';
+import salome from '../../assets/work/salome.jpeg';
 import imdbIcon from '../../assets/imdb.png';
 import spotlighIcon from '../../assets/spotlight-logo.png';
 import facebookIcon from '../../assets/facebook.png';
@@ -35,10 +41,14 @@ const Contact = () => {
         labore nam harum quo rerum eum. Quibusdam.
       </p>
       <div className="workImages">
-        <img src={Logo} alt="" className="workImg" />
-        <img src={Logo} alt="" className="workImg" />
-        <img src={Logo} alt="" className="workImg" />
-        <img src={Logo} alt="" className="workImg" />
+        <img src={dumping} alt="" className="workImg" />
+        <img src={Hennessy1} alt="" className="workImg" />
+        <img src={police} alt="" className="workImg" />
+        <img src={salome} alt="" className="workImg" />
+        <img src={salome} alt="" className="workImg" />
+        <img src={Hennessy2} alt="" className="workImg" />
+        <img src={Hennessy3} alt="" className="workImg" />
+        <img src={Hennessy4} alt="" className="workImg" />
       </div>
     </div>
     <div id="contact">

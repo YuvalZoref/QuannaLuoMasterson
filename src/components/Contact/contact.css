@@ -23,17 +23,18 @@
 }
 
 .workImages {
-  margin: 1rem 0;
+  margin: 1rem 0.5rem;
   display: flex;
   flex-wrap: wrap;
 }
 
 .workImg {
-  object-fit: cover;
+  object-fit: contain;
   width: 23%;
-  min-width: 9rem;
+  min-width: 12rem;
   margin: auto;
   padding: 0.25rem;
+  border-radius: 10px;
 }
 
 #work {
@@ -95,4 +96,25 @@
 }
 .link:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width:720px) {
+  .workImages {
+    margin: 1rem 1.5rem;
+  }
+  .workImg {
+    min-width: 10rem;
+    padding: 0.3rem;
+  }
+  .contactDescription {
+    font-weight: 300;
+    font-size: 1.1rem;
+  }
+  .workDescription {
+    font-weight: 300;
+    font-size: 1.25rem;
+  }
+  .contactForm {
+    padding-left: 1.5rem;
+  }
 }

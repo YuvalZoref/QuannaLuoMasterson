@@ -58,4 +58,7 @@
     height: 46vw;
     width: auto;
   }
+  .portfolioDescription {
+    font-size: 1.25rem;
+  }
 }

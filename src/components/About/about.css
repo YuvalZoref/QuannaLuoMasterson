@@ -59,6 +59,9 @@
   .skillBarText {
     font-size: 2vw;
   }
+  .aboutDescription {
+    font-size: 1.25rem;
+  }
 }
 @media screen and (max-width:480px) {
   .skillBarText {
@@ -71,4 +74,5 @@
   .aboutBarText>h2 {
     font-size: 5vw;
   }
+
 }
