@@ -41,20 +41,20 @@
 
 @media screen and (max-width:840px) {
   .background {
-    right: -26vw;
+    right: -20vw;
   }
   .introText {
-    font-size: 3rem;
+    font-size: 3.25rem;
     margin-top: 1rem;
   }
 
   .introName {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
   }
 
 }
 @media screen and (max-width:480px) {
   .background {
-    right: -20vw;
+    right: -40vw;
   }
 }

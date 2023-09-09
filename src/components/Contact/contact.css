@@ -111,19 +111,30 @@
   cursor: pointer;
 } */
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:850px) {
   .workImages {
-    margin: 1rem 1.5rem;
+    margin: 1rem 0.75rem;
   }
   .workImg {
     min-width: 11rem;
-    padding: 0.2rem;
+    padding: 0.25rem;
+  }
+  .contactPageTitle {
+    font-size: 2.5rem;
   }
   .contactDescription {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .workDescription {
     font-weight: 300;
     font-size: 1.25rem;
   }
+}
+@media screen and (max-width:480px) {
+
+  .workImg {
+    min-width: 8.5rem;
+
+  }
+
 }
