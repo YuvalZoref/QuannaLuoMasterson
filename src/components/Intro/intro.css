@@ -18,29 +18,36 @@
 
 .introContent {
   writing-mode: vertical-lr;
-  text-orientation: sideways;
+  /* text-orientation: sideways-right; */
+  font-weight: 300;
   height: 100vh;
   width: 100vw;
   padding: 2rem;
-  font-size: 5.5rem;
-  font-weight: 700;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+.introText {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  letter-spacing: 0.5rem;
+  font-size: 5rem;
 }
 
 .introName {
   text-orientation: upright;
   color: #d5c0c5;
+  letter-spacing: 0;
 }
 
 
 @media screen and (max-width:840px) {
   .background {
-    right: -10vw;
+    right: -26vw;
   }
-  .introContent {
-    font-size: 18vw;
+  .introText {
+    font-size: 5rem;
+    margin-top: 0;
   }
 }
 @media screen and (max-width:480px) {

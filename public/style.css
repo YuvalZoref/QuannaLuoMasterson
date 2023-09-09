@@ -9,7 +9,8 @@
 
 body {
   background: rgb(30, 30, 30);
-  color: #fff;
+  /* background-image: '../src/assets/brown.jpg'; */
+  color: #FAF9F6;
   overflow: hidden;
   overflow-y: scroll;
 }
