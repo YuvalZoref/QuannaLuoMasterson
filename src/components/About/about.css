@@ -38,8 +38,9 @@
   margin: 1rem;
   padding: 1.5rem 2rem;
   border-radius: 0.5rem;
-  background-color: #d5c0c5;
-  color: black;
+  background-color: #aa381e;
+  color: #FAF9F6;
+  opacity: 0.9;
 }
 
 .aboutBarImg {

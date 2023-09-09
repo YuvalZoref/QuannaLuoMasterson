@@ -2,11 +2,12 @@
   width: 100vw;
   margin-top: 1rem;
   height: 4rem;
-  background: #d5c0c5;
-  color: black;
+  background: #aa381e;
+  color: #FAF9F6;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 400;
   font-size: 1rem;
+  opacity: 0.9;
 }

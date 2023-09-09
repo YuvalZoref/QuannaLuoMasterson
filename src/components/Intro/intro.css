@@ -18,7 +18,6 @@
 
 .introContent {
   writing-mode: vertical-lr;
-  /* text-orientation: sideways-right; */
   font-weight: 300;
   height: 100vh;
   width: 100vw;
@@ -28,16 +27,15 @@
   justify-content: flex-start;
 }
 .introText {
-  margin-top: 0.5rem;
-  padding: 0.5rem;
-  letter-spacing: 0.5rem;
-  font-size: 5rem;
+  font-size: 3.7rem;
+  text-orientation: upright;
+  opacity: 0.9;
 }
 
 .introName {
-  text-orientation: upright;
-  color: #d5c0c5;
-  letter-spacing: 0;
+  color: #aa381e;
+  font-size: 3rem;
+  font-weight: 500;
 }
 
 
@@ -46,9 +44,14 @@
     right: -26vw;
   }
   .introText {
-    font-size: 5rem;
-    margin-top: 0;
+    font-size: 3rem;
+    margin-top: 1rem;
   }
+
+  .introName {
+    font-size: 2.5rem;
+  }
+
 }
 @media screen and (max-width:480px) {
   .background {

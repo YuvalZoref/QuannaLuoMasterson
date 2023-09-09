@@ -14,10 +14,9 @@
 }
 
 .logo{
-  padding: 0.75rem;
-  padding-left: 0;
-  width: 6rem;
-  height: 6rem;
+  padding: 1rem;
+  width: 5rem;
+  height: 5rem;
   object-fit: contain;
 }
 .desktopMenuListItem{
@@ -25,9 +24,9 @@
   cursor: pointer;
 }
 .desktopMenuListItem:hover{
-  color: #d5c0c5;
+  color: #aa381e;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid #d5c0c5;
+  border-bottom: 3px solid #aa381e;
 }
 .desktopMenuImg{
   object-fit: cover;
@@ -53,8 +52,8 @@
 }
 
 .active {
-  color: #d5c0c5;
-  border-bottom: 3px solid #d5c0c5;
+  color: #aa381e;
+  border-bottom: 3px solid #aa381e;
   padding-bottom: 0.5rem;
 }
 
@@ -88,8 +87,8 @@
   background: rgb(30, 30, 30);
 }
 .listItem:hover {
-  color: #d5c0c5;
-  border-bottom: 3px solid #d5c0c5;
+  color: #aa381e;
+  border-bottom: 3px solid #aa381e;
   cursor: pointer;
 }
 
