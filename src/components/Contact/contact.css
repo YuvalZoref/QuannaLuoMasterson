@@ -109,15 +109,17 @@
   }
   .contactPageTitle {
     font-size: 2.5rem;
-    margin: 2.25rem 0;
+    margin: 2rem 0;
   }
   .contactDescription {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-bottom: 3rem;
   }
   .workDescription {
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    padding-bottom: 0.5rem;
   }
   .submitBtn {
     margin: 2.15rem 0;
@@ -126,7 +128,7 @@
 @media screen and (max-width:480px) {
   .name, .email, .message {
     margin: 0.7rem;
-    padding: 0.8rem 1rem;
+    padding: 0.75rem 1rem;
   }
   .workImg {
     min-width: 8.5rem;

@@ -54,7 +54,7 @@ const Contact = () => {
     </div>
     <div id="contact">
       <h1 className="contactPageTitle">Contact</h1>
-      <span className="contactDescription"> Please feel free to fill out the form below to reach out to me!</span>
+      <span className="contactDescription"> Please feel free to fill out the form below to reach out!</span>
       <form className="contactForm" ref={form} onSubmit={sendEmail}>
         <input type="text" className="name" placeholder="Name" name='from_name' />
         <input type="email" className="email" placeholder="Email" name='from_email' />

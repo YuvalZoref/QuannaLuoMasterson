@@ -50,7 +50,10 @@
     /* object-fit: contain; */
   }
   .portfolioDescription {
-    font-size: 1.25rem;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0 2rem;
+    padding-bottom: 0.5rem;
   }
   .portfolioTitle {
     font-size: 2.5rem;
