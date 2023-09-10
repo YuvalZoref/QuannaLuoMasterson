@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/QuannaLuoMasterson/static/css/main.90574f6c.css",
+    "main.css": "/QuannaLuoMasterson/static/css/main.9ee2fda2.css",
     "main.js": "/QuannaLuoMasterson/static/js/main.80d7293b.js",
     "static/media/police.PNG": "/QuannaLuoMasterson/static/media/police.e9b81d8e5337ffb3ea20.PNG",
     "static/media/Hennessy4.JPEG": "/QuannaLuoMasterson/static/media/Hennessy4.58134fed97a2d885224d.JPEG",
@@ -25,11 +25,11 @@
     "static/media/facebook.png": "/QuannaLuoMasterson/static/media/facebook.49fb52a8bbcdad48ddcb.png",
     "static/media/film.png": "/QuannaLuoMasterson/static/media/film.27099466a5745745051c.png",
     "index.html": "/QuannaLuoMasterson/index.html",
-    "main.90574f6c.css.map": "/QuannaLuoMasterson/static/css/main.90574f6c.css.map",
+    "main.9ee2fda2.css.map": "/QuannaLuoMasterson/static/css/main.9ee2fda2.css.map",
     "main.80d7293b.js.map": "/QuannaLuoMasterson/static/js/main.80d7293b.js.map"
   },
   "entrypoints": [
-    "static/css/main.90574f6c.css",
+    "static/css/main.9ee2fda2.css",
     "static/js/main.80d7293b.js"
   ]
 }
