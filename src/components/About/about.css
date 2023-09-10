@@ -57,8 +57,17 @@
 .aboutBarText>h2 {
   font-size: 1.8rem;
 }
+.aboutBarLink {
+  text-decoration: none;
+  color: #FAF9F6;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.aboutBarLink:hover {
+  opacity: 0.7;
+}
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:850px) {
   .aboutBars {
     margin: 1rem;
     max-width: 97%;

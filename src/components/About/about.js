@@ -22,7 +22,9 @@ const About = () => {
           <div className="aboutBarText">
             <h2>TV & film</h2>
             <p>write my own text section here, whatever it may be!
-            write my own text section here, whatever it may be!</p>
+            write my own text section here, whatever it may be!
+            </p>
+            <a className="aboutBarLink" href="https://www.michelleblairmanagement.co.uk/quanna-luo-masterson" rel="noreferrer" target="blank"> Click here to see more</a>
           </div>
         </div>
         <div className="aboutBar">
@@ -30,7 +32,9 @@ const About = () => {
           <div className="aboutBarText">
             <h2>Stage</h2>
             <p>write my own text section here, whatever it may be!
-            write my own text section here, whatever it may be!</p>
+            write my own text section here, whatever it may be!
+            </p>
+            <a className="aboutBarLink" href="https://www.spotlight.com/6694-9082-1101" rel="noreferrer" target="blank"> Click here to see more</a>
           </div>
         </div>
         <div className="aboutBar">
@@ -38,7 +42,9 @@ const About = () => {
           <div className="aboutBarText">
             <h2>Voice over</h2>
             <p>write my own text section here, whatever it may be!
-            write my own text section here, whatever it may be!</p>
+            write my own text section here, whatever it may be!
+            </p>
+            <a className="aboutBarLink" href="https://www.sueterryvoices.com/artist/quanna-luo-masterson" rel="noreferrer" target="blank"> Click here to see more</a>
           </div>
         </div>
       </div>

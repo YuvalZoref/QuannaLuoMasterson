@@ -37,6 +37,11 @@
   font-size: 3rem;
   font-weight: 500;
 }
+.chinese {
+  padding: 0.6rem;
+  height: 4rem;
+  width: 4rem;
+}
 
 
 @media screen and (max-width:840px) {

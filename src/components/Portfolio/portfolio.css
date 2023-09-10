@@ -43,7 +43,7 @@
   border-radius: 0.5rem;
 }
 
-@media screen and (max-width:585px) {
+@media screen and (max-width:850px) {
   .portfolioImg {
     height: 42vw;
     width: 32vw;

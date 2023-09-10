@@ -95,7 +95,6 @@
 @media screen and (max-width:720px) {
   .mobileMenu {
     display: flex;
-    padding-right: 1rem;
   }
   .desktopMenu {
     display: none;
@@ -106,5 +105,8 @@
   .navbar {
     padding: 1rem 0.75rem;
     padding-right: 1rem;
+  }
+  .mobileMenu {
+    padding-right: 1.75rem;
   }
 }
