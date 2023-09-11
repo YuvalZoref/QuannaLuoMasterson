@@ -49,6 +49,8 @@
   height: 3.5rem;
   width: 3.5rem;
   margin-right: 2rem;
+  margin-top: 1rem;
+  /* padding-bottom: 0.5rem; */
 }
 
 .aboutBarText>p {
@@ -92,13 +94,17 @@
     font-size: 3vw;
   }
   .aboutBarImg {
-    height: 2.25rem;
-    width: 2.25rem;
+    height: 2.75rem;
+    width: 2.75rem;
+    margin-top: 0;
   }
   .aboutBarText>h2 {
-    font-size: 5vw;
+    font-size: 3.75vw;
   }
   .aboutBarText>p {
-    font-size: 3vw;
+    font-size: 2.25vw;
+  }
+  .aboutBarLink {
+    font-size: 2.5vw;
   }
 }
