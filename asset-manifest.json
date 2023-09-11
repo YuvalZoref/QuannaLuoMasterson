@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7b0f83c.css",
-    "main.js": "/static/js/main.83a669c5.js",
+    "main.css": "/static/css/main.048517b5.css",
+    "main.js": "/static/js/main.6fdf7585.js",
     "static/media/police.PNG": "/static/media/police.e9b81d8e5337ffb3ea20.PNG",
     "static/media/Hennessy4.JPEG": "/static/media/Hennessy4.58134fed97a2d885224d.JPEG",
     "static/media/q9.jpg": "/static/media/q9.32157abafdfb69094ce4.jpg",
@@ -14,7 +14,6 @@
     "static/media/Hennessy2.jpg": "/static/media/Hennessy2.ff8ecd9796ac952d2634.jpg",
     "static/media/mercedes.png": "/static/media/mercedes.74dc93e882919655c418.png",
     "static/media/q-intro.png": "/static/media/q-intro.09a30fe6c1ec2ebe512c.png",
-    "static/media/theatre.png": "/static/media/theatre.3cc86002b400ecb2b129.png",
     "static/media/dumping.jpg": "/static/media/dumping.0fa55da91b250cb20b9a.jpg",
     "static/media/salome.jpeg": "/static/media/salome.ef33afcd58dd91ea3e1a.jpeg",
     "static/media/Hennessy3.JPG": "/static/media/Hennessy3.ac849c90079879cdad6f.JPG",
@@ -23,13 +22,13 @@
     "static/media/insta.png": "/static/media/insta.ef4e59106727ef2ff0d2.png",
     "static/media/logo-q2.png": "/static/media/logo-q2.d79a4378745ceccd88fe.png",
     "static/media/facebook.png": "/static/media/facebook.49fb52a8bbcdad48ddcb.png",
-    "static/media/film.png": "/static/media/film.27099466a5745745051c.png",
+    "static/media/film-red.png": "/static/media/film-red.b7ed46bf39d00961d1af.png",
     "index.html": "/index.html",
-    "main.a7b0f83c.css.map": "/static/css/main.a7b0f83c.css.map",
-    "main.83a669c5.js.map": "/static/js/main.83a669c5.js.map"
+    "main.048517b5.css.map": "/static/css/main.048517b5.css.map",
+    "main.6fdf7585.js.map": "/static/js/main.6fdf7585.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7b0f83c.css",
-    "static/js/main.83a669c5.js"
+    "static/css/main.048517b5.css",
+    "static/js/main.6fdf7585.js"
   ]
 }
