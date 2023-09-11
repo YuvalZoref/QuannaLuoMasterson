@@ -4,7 +4,7 @@ import './footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      Copyright Quanna Luo Masterson, Sexy bugger and everything
+      Thanks for checking out my site!
     </footer>
   )
 }
