@@ -1,8 +1,8 @@
 import React from "react";
 import './about.css';
-import film from '../../assets/film.png';
-import theatre from '../../assets/theatre.png';
-import voice from '../../assets/voice.png';
+import film from '../../assets/film-red.png';
+import theatre from '../../assets/theatre-red.png';
+import voice from '../../assets/voice-red.png';
 
 const About = () => {
   return (
