@@ -27,17 +27,17 @@
   justify-content: flex-start;
 }
 .introText {
-  font-size: 3.45rem;
+  font-size: 3rem;
   text-orientation: upright;
-  opacity: 0.9;
-  font-family: 'Lobster', cursive;
+  opacity: 0.8;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .introName {
   color: #aa381e;
-  font-size: 3rem;
   font-weight: 500;
-  font-family: 'Lobster', cursive;
+  font-family: 'Abril Fatface', cursive;
+  border-top: 3.5px solid #aa381e;
 }
 
 @media screen and (max-width:840px) {
@@ -45,12 +45,12 @@
     right: -20vw;
   }
   .introText {
-    font-size: 3.25rem;
-    margin-top: 1rem;
+    font-size: 3rem;
+    margin-top: -1rem;
   }
 
   .introName {
-    font-size: 2.75rem;
+    font-size: 2.25rem;
   }
 
 }
