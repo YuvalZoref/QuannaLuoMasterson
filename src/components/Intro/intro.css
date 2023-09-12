@@ -27,22 +27,18 @@
   justify-content: flex-start;
 }
 .introText {
-  font-size: 3.7rem;
+  font-size: 3.45rem;
   text-orientation: upright;
   opacity: 0.9;
+  font-family: 'Lobster', cursive;
 }
 
 .introName {
   color: #aa381e;
   font-size: 3rem;
   font-weight: 500;
+  font-family: 'Lobster', cursive;
 }
-.chinese {
-  padding: 0.6rem;
-  height: 4rem;
-  width: 4rem;
-}
-
 
 @media screen and (max-width:840px) {
   .background {
