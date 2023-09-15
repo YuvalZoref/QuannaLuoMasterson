@@ -11,14 +11,15 @@
 }
 
 .contactPageTitle {
-  font-size: 3rem;
+  font-size: 2.25rem;
   margin: 1rem 0;
-  font-family: 'Abril Fatface', cursive;
+  font-weight: 700;
+  /* font-style: italic; */
 }
 
 .workDescription {
-  font-weight: 300;
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 1.3rem;
   max-width: 60rem;
   padding: 0 2rem;
 }
@@ -43,8 +44,8 @@
 }
 
 .contactDescription {
-  font-weight: 300;
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-size: 1.3rem;
   max-width: 60rem;
   padding: 0 2rem;
 }
@@ -61,7 +62,7 @@
 
 .name, .email, .message {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
   width: 100%;
   max-width: 40rem;
   margin: 0.5rem;
@@ -110,15 +111,14 @@
     padding: 0.25rem;
   }
   .contactPageTitle {
-    font-size: 2.5rem;
-    margin: 2rem 0;
+    font-size: 2.2rem;
+    margin: 1.5rem 0;
   }
   .contactDescription {
     font-size: 0.9rem;
     margin-bottom: 3rem;
   }
   .workDescription {
-    font-weight: 300;
     font-size: 1rem;
     padding: 0 1.5rem;
     padding-bottom: 0.5rem;

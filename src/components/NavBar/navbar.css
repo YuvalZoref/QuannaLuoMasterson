@@ -22,6 +22,8 @@
 .desktopMenuListItem{
   margin: 1rem;
   cursor: pointer;
+  /* font-weight: 700; */
+  /* font-style: italic; */
 }
 .desktopMenuListItem:hover{
   color: #aa381e;
@@ -36,7 +38,7 @@
 }
 .desktopMenuBtn{
   background: #faf9f6d4;
-  font-size: 16px;
+  font-size: 0.9rem;
   color: black;
   border: 0;
   display: flex;
@@ -46,9 +48,10 @@
   padding-right: 1.5rem;
   border-radius: 1.25rem;
   cursor: pointer;
+  font-weight: 700;
 }
 .desktopMenuBtn:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .active {
@@ -60,7 +63,7 @@
 .mobileMenu {
   display: none;
   object-fit: cover;
-  height: 3rem;
+  height: 2.75rem;
 }
 .mobileMenu:hover {
   cursor: pointer;
