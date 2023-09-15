@@ -73,8 +73,8 @@
 
 @media screen and (max-width:850px) {
   .aboutBars {
-    margin: 1rem;
-    max-width: 97%;
+    margin: 0.75rem;
+    max-width: 98%;
     text-align: left;
   }
   .skillBarText {
