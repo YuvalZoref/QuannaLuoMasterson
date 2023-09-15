@@ -13,7 +13,7 @@
 }
 
 .aboutTitle {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   font-weight: 700;
   padding-top: 3rem;
   margin-bottom: 1.5rem;
@@ -21,7 +21,7 @@
 }
 
 .aboutDescription {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   max-width: 60rem;
   padding: 0 2rem;
 }
@@ -60,6 +60,7 @@
 .aboutBarText>h2 {
   font-size: 1.8rem;
   font-weight: 700;
+  font-style: italic;
 }
 .aboutBarLink {
   text-decoration: none;

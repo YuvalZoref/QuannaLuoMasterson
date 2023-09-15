@@ -22,7 +22,6 @@
 .desktopMenuListItem{
   margin: 1rem;
   cursor: pointer;
-  /* font-weight: 700; */
   /* font-style: italic; */
 }
 .desktopMenuListItem:hover{
