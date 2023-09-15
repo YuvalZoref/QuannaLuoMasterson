@@ -1,6 +1,7 @@
 #portfolio {
-  margin: 0 auto;
-  min-height: calc(100vh - 5rem);
+  margin: 2.5rem auto;
+  margin-top: 0.25rem;
+  /* min-height: calc(100vh - 5rem); */
   /* width: 100vh; */
   max-width: 70rem;
   display: flex;
@@ -8,38 +9,38 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 0.5rem;
 }
 
 .portfolioTitle {
   margin: 1rem 0;
-  font-size: 2.25rem;
-  padding-top: 1rem;
+  font-size: 2.5rem;
+  padding: 1.1rem 0;
   font-weight: 700;
   /* font-style: italic; */
 }
 
 .portfolioDescription {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   max-width: 60rem;
-  padding: 0 2rem;
+  padding: 0.5rem 2rem;
 }
 
 .portfolioImages {
   margin: 2rem 0;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   width: 100vw;
-  max-width: 65rem;
+  max-width: 60rem;
 }
 
 .portfolioImg {
   object-fit: cover;
-  height: 16rem;
+  height: 16.5rem;
   width: 9rem;
   margin: 0.5rem;
   border-radius: 0.5rem;

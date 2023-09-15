@@ -11,15 +11,15 @@
 }
 
 .contactPageTitle {
-  font-size: 2.25rem;
-  margin: 1rem 0;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
   font-weight: 700;
   /* font-style: italic; */
 }
 
 .workDescription {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   max-width: 60rem;
   padding: 0 2rem;
 }

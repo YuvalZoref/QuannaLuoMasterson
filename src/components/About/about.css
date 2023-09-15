@@ -9,10 +9,11 @@
   text-align: center;
   margin: 0 auto;
   padding: 0 0.5rem;
+  min-height: calc(100vh - 2rem);
 }
 
 .aboutTitle {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-weight: 700;
   padding-top: 3rem;
   margin-bottom: 1.5rem;
@@ -20,14 +21,14 @@
 }
 
 .aboutDescription {
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   max-width: 60rem;
   padding: 0 2rem;
 }
 
 .aboutBars {
   margin: 1.5rem;
-  margin-bottom: 0;
+  padding-bottom: 0.25rem;
   width: 100vw;
   max-width: 90%;
   text-align: left;
@@ -54,15 +55,17 @@
 }
 
 .aboutBarText>p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .aboutBarText>h2 {
-  font-size: 1.75rem;
+  font-size: 1.8rem;
+  font-weight: 700;
 }
 .aboutBarLink {
   text-decoration: none;
   color: #faf9f676;
   font-weight: 700;
+  font-size: 1.25;
 }
 .aboutBarLink:hover {
   opacity: 0.7;
