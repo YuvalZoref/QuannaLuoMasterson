@@ -18,9 +18,8 @@
 }
 
 .workDescription {
-  font-weight: 400;
-  font-size: 1.35rem;
-  max-width: 60rem;
+  font-size: 1.5rem;
+  max-width: 70rem;
   padding: 0 2rem;
 }
 
@@ -33,10 +32,15 @@
 .workImg {
   object-fit: contain;
   width: 23%;
-  min-width: 27rem;
-  margin: auto;
+  min-width: 28rem;
+  margin: 0.25rem auto;
   padding: 0.25rem;
   border-radius: 10px;
+}
+.showreel {
+  margin-top: 2rem;
+  max-width: 60rem;
+  padding: 1rem;
 }
 
 #work {
@@ -109,6 +113,9 @@
   .workImg {
     min-width: 11rem;
     padding: 0.25rem;
+  }
+  .showreel{
+    max-width: 85vw;
   }
   .contactPageTitle {
     font-size: 2.2rem;

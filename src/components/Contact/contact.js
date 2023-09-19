@@ -13,6 +13,7 @@ import spotlighIcon from '../../assets/spotlight-logo.png';
 import facebookIcon from '../../assets/facebook.png';
 import instagramIcon from '../../assets/insta.png';
 import emailjs from '@emailjs/browser';
+// import Showreel from '../../assets/work/showreel1.mp4'
 
 const Contact = () => {
   const form = useRef();
@@ -33,13 +34,7 @@ const Contact = () => {
     <div id="work">
       <h1 className="contactPageTitle">My Work</h1>
       <p className="workDescription">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Maxime velit ipsam, doloribus,
-        quidem sint ad asperiores officiis repellendus quia facere atque blanditiis est
-        labore nam harum quo rerum eum. Quibusdam.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.Maxime velit ipsam, doloribus,
-        quidem sint ad asperiores officiis repellendus quia facere atque blanditiis est
-        labore nam harum quo rerum eum. Quibusdam.
+      Along my journey, I've taken on various roles, from hosting my own TV show to earning a scholarship in the UK for my dedication to the craft. I'm incredibly proud of the path I've walked, and I genuinely feel that my experiences in theatre, TV, and film have allowed me to grow as a performer and connect with audiences in a meaningful way. Thank you for joining me on this adventure!
       </p>
       <div className="workImages">
         <img src={mercedes} alt="" className="workImg" />
@@ -50,6 +45,9 @@ const Contact = () => {
         <img src={police} alt="" className="workImg" />
         <img src={salome} alt="" className="workImg" />
         <img src={Hennessy4} alt="" className="workImg" />
+        {/* <video loop autoplay="" muted className='showreel'>
+          <source src={Showreel} type="video/mp4" />
+        </video> */}
       </div>
     </div>
     <div id="contact">

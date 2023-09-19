@@ -9,13 +9,10 @@ const About = () => {
     <section id="about">
       <span className="aboutTitle">About Me</span>
       <span className="aboutDescription">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Maxime velit ipsam, doloribus,
-        quidem sint ad asperiores officiis repellendus quia facere atque blanditiis est
-        labore nam harum quo rerum eum. Quibusdam.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.Maxime velit ipsam, doloribus,
-        quidem sint ad asperiores officiis repellendus quia facere atque blanditiis est
-        labore nam harum quo rerum eum. Quibusdam.</span>
+        Hello, I'm Quanna, and it's a pleasure to open up and share a bit of my journey with you. I've had the incredible opportunity to portray Eileen in CHIMERICA, all thanks to the talented Amy Hubbard who cast me. Being fluent in English, Mandarin, and Cantonese has allowed me to seamlessly bridge different cultures in my work.
+        My upbringing in Shanghai, Hong Kong, and Shenzhen exposed me to diverse cultures and languages from a very young age. My mother, a professional ballroom dancer, instilled in me a deep love for the arts. I had the privilege of attending a prestigious professional dance school in China, where I received meticulous training in various dance forms and academy classes that emphasized precision and discipline.
+        My heart truly belongs to martial arts, especially Kung Fu and Taekwondo. I've also delved into the world of ballet and jazz. These experiences have been instrumental in allowing me to bring authenticity, physicality, and grace to my performances.
+      </span>
       <div className="aboutBars">
         <div className="aboutBar">
           <img src={film} alt="LogoChange" className="aboutBarImg" />
