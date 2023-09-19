@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04891be5.css",
-    "main.js": "/static/js/main.2812effc.js",
+    "main.js": "/static/js/main.2a15a8fc.js",
     "static/media/police.PNG": "/static/media/police.e9b81d8e5337ffb3ea20.PNG",
     "static/media/Hennessy4.JPEG": "/static/media/Hennessy4.58134fed97a2d885224d.JPEG",
     "static/media/q9.jpg": "/static/media/q9.32157abafdfb69094ce4.jpg",
@@ -25,10 +25,10 @@
     "static/media/film-red.png": "/static/media/film-red.b7ed46bf39d00961d1af.png",
     "index.html": "/index.html",
     "main.04891be5.css.map": "/static/css/main.04891be5.css.map",
-    "main.2812effc.js.map": "/static/js/main.2812effc.js.map"
+    "main.2a15a8fc.js.map": "/static/js/main.2a15a8fc.js.map"
   },
   "entrypoints": [
     "static/css/main.04891be5.css",
-    "static/js/main.2812effc.js"
+    "static/js/main.2a15a8fc.js"
   ]
 }
