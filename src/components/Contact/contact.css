@@ -32,8 +32,8 @@
 .workImg {
   object-fit: contain;
   width: 23%;
-  min-width: 28rem;
-  margin: 0.25rem auto;
+  min-width: 27rem;
+  margin: auto;
   padding: 0.25rem;
   border-radius: 10px;
 }
